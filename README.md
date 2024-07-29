@@ -45,3 +45,13 @@ The program uses std::cin to take input from the user and std::cout to display o
 The program offers hands-on experience with core C++ concepts, such as arithmetic operations and conditional logic. By performing calculations and classifying numbers, users gain insight into essential programming techniques and handling user input efficiently. This exercise aids in mastering basic computations and decision-making in C++.
 
 ![image](https://github.com/user-attachments/assets/67696b84-92f1-4a89-aa5c-2dfac72a5af0)
+
+
+
+
+# EXP 3
+
+## Aim:
+To illustrate the use of arithmetic operators, assignment operators, and conditional operators in C++.
+
+### Theory:
