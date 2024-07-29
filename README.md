@@ -21,28 +21,27 @@
 
 
 
-*EXP 2*
+# EXP 2
 
-*Aim*:
+## Aim:
   To perform basic arithmetic operations and number classifications by calculating the sum, average, and determining whether numbers are even or odd.
 
- *Theory*:
+### Theory:
 
-    Arithmetic Operations:
+### Arithmetic Operations:
 Basic arithmetic operations include addition, subtraction, multiplication, and division. These operations are performed using operators like +, -, *, and /. The program calculates the sum and average of a series of numbers, demonstrating how to perform and combine arithmetic operations.
 
-Conditional Statements:
+### Conditional Statements:
 Conditional operators are used to make decisions in the program. For instance, the modulus operator % is used to determine if a number is even or odd. Conditional statements such as if and else help in branching the program flow based on whether the condition is true or false.
 
-Input/Output Operations:
+### Input/Output Operations:
 The program uses std::cin to take input from the user and std::cout to display output. This interaction is essential for creating dynamic programs that can handle user-provided data.
 
 
-*Apparatus*:
+### Apparatus:
  VS Code, Github
 
-*Conclusion*:
-
+### Conclusion:
 The program offers hands-on experience with core C++ concepts, such as arithmetic operations and conditional logic. By performing calculations and classifying numbers, users gain insight into essential programming techniques and handling user input efficiently. This exercise aids in mastering basic computations and decision-making in C++.
 
 ![image](https://github.com/user-attachments/assets/67696b84-92f1-4a89-aa5c-2dfac72a5af0)
