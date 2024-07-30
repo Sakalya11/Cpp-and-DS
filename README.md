@@ -1,18 +1,18 @@
 # EXP 1
 
 ## Aim:
- To demonstrate the basic structure of a C++ program and the syntax for outputting text to the console.
+  To get started with C++ programming, first write a simple "Hello World" program using std::cout to display the message. Next, create a program to calculate and display the sum and average of two user-input numbers. For checking if a number is even or odd, use the modulo operator to determine if the number is divisible by 2. Lastly, write a program to check if a given year is a leap year by testing if the year is divisible by 4, and if divisible by 100, also by 400.
 
 ### Theory:
- The "Hello, World!" program is a traditional first exercise in learning any programming language, demonstrating the basic syntax and structure of a C++ program. In C++, the `#include` directive is used to import the standard input-output stream library, enabling the use of `std::cout` for outputting text to the console. The `main` function acts as the entry point of every C++ program. Within the `main` function, `std::cout << "Hello, World!";` outputs the string "Hello, World!" to the console, followed by `std::endl` which inserts a newline. This program introduces fundamental concepts such as headers, namespaces, the `main` function, and output statements.
-
+ "Hello World" and other introductory programs serve as a means to grasp the fundamental syntax of C++ and familiarize oneself with its standard library. These initial programs aid programmers in learning basic input/output functions, arithmetic operations, and conditional statements. They are crucial for gaining an understanding of fundamental data types, variables, and operators used in C++.  
+ 
 ### Apparatus:
  VS Code, Github
 
 ### Conclusion:
- The "Hello World!" program serves as an essential introduction to C++ programming. It demonstrates fundamental concepts like including libraries, using namespaces, and outputting text. By executing this simple program, learners gain a foundational understanding of C++ syntax
+  These basic programs serve as introductory exercises for understanding the fundamental structure and syntax of C++. Through these exercises, we learn to utilize input/output commands, as well as arithmetic and logical operators, and conditional statements.
 
-![image](https://github.com/user-attachments/assets/c6233d93-275b-42d2-8494-b276d1805d73)
+
 
 
 
