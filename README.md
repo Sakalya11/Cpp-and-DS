@@ -9,6 +9,18 @@
 ### Apparatus:
  VS Code, Github
 
+### Hello world output:
+![image](https://github.com/user-attachments/assets/bea800d3-9618-4d12-979b-cfde8eb04c81)
+
+### Sum of two numbers output:
+![image](https://github.com/user-attachments/assets/66c5f522-bd32-4b83-bb1a-394afa16be80)
+
+### Even/Odd output:
+![image](https://github.com/user-attachments/assets/4a0c1999-a462-4251-995c-722b132637c5)
+
+### Leap year output:
+![image](https://github.com/user-attachments/assets/097e0e62-8a45-4d71-a584-61dc61482566)
+
 ### Conclusion:
   These basic programs serve as introductory exercises for understanding the fundamental structure and syntax of C++. Through these exercises, we learn to utilize input/output commands, as well as arithmetic and logical operators, and conditional statements.
 
