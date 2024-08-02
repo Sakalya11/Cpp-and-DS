@@ -28,6 +28,22 @@ return 0;
 ### Hello world output:
 ![image](https://github.com/user-attachments/assets/bea800d3-9618-4d12-979b-cfde8eb04c81)
 
+### Sum of two numbers code: 
+```
+#include <iostream>
+using namespace std;
+int main()
+{
+	int a,b;
+	cout<<"Enter the value of a and b"<<endl;
+	cin>>a;
+	cin>>b;
+	int sum1=a+b;
+	cout<<sum1<<endl;
+	return 0;
+}
+```
+
 ### Sum of two numbers output:
 ![image](https://github.com/user-attachments/assets/66c5f522-bd32-4b83-bb1a-394afa16be80)
 
