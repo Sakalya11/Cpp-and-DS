@@ -111,7 +111,6 @@ int main(){
 
 
 
-
    
 
 
@@ -171,7 +170,8 @@ int main()
 ![image](https://github.com/user-attachments/assets/d33f3268-a2b1-438d-9ff9-6cc6e9ee571f)
 
 
-### Conclusion:
+### Conclusion: 
+
    This program demonstrates the use of the sizeof operator to determine the size of various data types in C++. Understanding the sizes of these data types helps us make better memory management decisions and optimize our programs.
 
 
