@@ -172,6 +172,7 @@ int main()
 
 
 ### Conclusion:
+   This program demonstrates the use of the sizeof operator to determine the size of various data types in C++. Understanding the sizes of these data types helps us make better memory management decisions and optimize our programs.
 
 
 
