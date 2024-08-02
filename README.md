@@ -47,8 +47,49 @@ int main()
 ### Sum of two numbers output:
 ![image](https://github.com/user-attachments/assets/66c5f522-bd32-4b83-bb1a-394afa16be80)
 
+### Even/Odd code: 
+```
+#include <iostream>
+using namespace std;
+int main()
+{
+	int a;
+	cout<<"Enter a number"<<endl;
+	cin>>a;
+	if(a%2==0){
+	cout<<"Even number"<<endl;
+}
+else {
+	cout<<"odd number";
+}
+return 0;
+}
+```
+
 ### Even/Odd output:
 ![image](https://github.com/user-attachments/assets/4a0c1999-a462-4251-995c-722b132637c5)
+
+### Leap year code: 
+```
+#include <iostream>
+using namespace std;
+int main(){
+	int year;
+	cout<<"Enter the year"<<endl;
+	cin>>year;
+	if(year%400==0) {
+        cout <<year<<"is a leap year";
+    } else if(year % 100==0) {
+        cout <<year<<"is not a leap year";
+    } else if(year % 4==0) {
+        cout <<year<<"is a leap year";
+    } else {
+        cout <<year<<"is not a leap year";
+    }
+
+    return 0;
+}
+```
 
 ### Leap year output:
 ![image](https://github.com/user-attachments/assets/097e0e62-8a45-4d71-a584-61dc61482566)
