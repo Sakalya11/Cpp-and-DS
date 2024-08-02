@@ -10,7 +10,7 @@
  VS Code, Github
 
  ### Hello world code:
-'''
+' ' '
 #include <iostream>
 
 using namespace std;
@@ -24,7 +24,7 @@ cout<<"Hello World";
 return 0;
 
 }
-'''
+' ' '
 ### Hello world output:
 ![image](https://github.com/user-attachments/assets/bea800d3-9618-4d12-979b-cfde8eb04c81)
 
