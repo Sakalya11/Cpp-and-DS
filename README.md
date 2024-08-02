@@ -10,7 +10,14 @@
  VS Code, Github
 
  ### Hello world code:
-![image](https://github.com/user-attachments/assets/e85b4470-5e93-494e-add7-4b105a23b0f1)
+#include <iostream>
+using namespace std;
+int main()
+{
+    cout<<"Hello World";
+    
+    return 0;
+}
 
 
 ### Hello world output:
