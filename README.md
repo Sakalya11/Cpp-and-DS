@@ -272,38 +272,38 @@ int main() {
    These operators manipulate individual bits of integers, which can be useful for optimization and low-level operations. Here’s a concise overview:
 
 
-Bitwise AND (&):
+### Bitwise AND (&):
 
 1)Performs a bitwise AND operation between two integers.
 
 2)If both corresponding bits are 1, the result bit is 1; otherwise, it’s 0.
 
-Bitwise OR (|):
+### Bitwise OR (|):
 
 1)Performs a bitwise OR operation.
 
 2)If at least one of the corresponding bits is 1, the result bit is 1.
 
-Bitwise XOR (^):
+### Bitwise XOR (^):
 
 1)Performs a bitwise XOR (exclusive OR) operation.
 
 2)If the corresponding bits are different, the result bit is 1; otherwise, it’s 0. 
 
 
-Bitwise NOT (~):
+### Bitwise NOT (~):
 
 1)Inverts all the bits (bitwise complement).
 
 2)If a bit is 1, its result bit is 0, and vice versa.
 
-Left Shift (<<):
+### Left Shift (<<):
 
 1)Shifts the bits of the left operand to the left by the specified number of positions.
 
 2)New bits on the right are set to 0.
 
-Right Shift (>>):
+### Right Shift (>>):
 
 1)Shifts the bits of the left operand to the right by the specified number of positions.
 
