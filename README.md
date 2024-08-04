@@ -269,7 +269,7 @@ int main() {
   Vs Code, Github
 
 ### Theory:
-    These operators manipulate individual bits of integers, which can be useful for optimization and low-level operations. Here’s a concise overview:
+   These operators manipulate individual bits of integers, which can be useful for optimization and low-level operations. Here’s a concise overview:
 Bitwise AND (&):
 *Performs a bitwise AND operation between two integers.
 *If both corresponding bits are 1, the result bit is 1; otherwise, it’s 0.
