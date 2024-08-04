@@ -184,3 +184,67 @@ int main()
 To illustrate the use of arithmetic operators, assignment operators, and conditional operators in C++.
 
 ### Theory:
+
+This program demonstrates the use of different types of operators in C++ those are as follows: 
+
+Arithmetic Operators:
+These include + (addition), - (subtraction), * (multiplication), / (division), and % (modulus). They are used to perform basic mathematical operations in C++.
+
+Assignment Operators:
+These operators are used to assign values to variables. The basic assignment operator = assigns a value to a variable, while operators like +=, -=, *=, and /= combine the particular arithmetic operation with assignment.
+
+Comparison Operators:
+These include == (equal to), != (not equal to), > (greater than), < (less than), >= (greater than or equal to), and <= (less than or equal to). They are used to compare values and give the result as a boolean value, either true or false.
+
+
+### Code:
+```
+#include <iostream>
+using namespace std;
+
+//Name: Sakalya Tatte 
+//PRN:23070123142
+
+int main() {
+    // Arithmetic Operators
+    int a = 10;
+    int b = 5;
+    
+    std::cout << "Arithmetic Operators:" << std::endl;
+    std::cout << "a + b = " << a + b << std::endl;
+    std::cout << "a - b = " << a - b << std::endl;
+    std::cout << "a * b = " << a * b << std::endl;
+    std::cout << "a / b = " << a / b << std::endl;
+    std::cout << "a % b = " << a % b << std::endl;
+
+    // Assignment Operators
+    int c = a;
+    c += b;
+    std::cout << "Assignment Operators:" << std::endl;
+    std::cout << "c after c += b: " << c << std::endl;
+    c -= b;
+    std::cout << "c after c -= b: " << c << std::endl;
+    c *= b;
+    std::cout << "c after c *= b: " << c << std::endl;
+    c /= b;
+    std::cout << "c after c /= b: " << c << std::endl;
+    c %= b;
+    std::cout << "c after c %= b: " << c << std::endl;
+
+    // Comparison Operators
+    std::cout << "Comparison Operators:" << std::endl;
+    std::cout << "a == b: " << (a == b) << std::endl;
+    std::cout << "a != b: " << (a != b) << std::endl;
+    std::cout << "a > b: " << (a > b) << std::endl;
+    std::cout << "a < b: " << (a < b) << std::endl;
+    std::cout << "a >= b: " << (a >= b) << std::endl;
+    std::cout << "a <= b: " << (a <= b) << std::endl;    
+
+    return 0;
+}
+```
+### Output:
+  ![image](https://github.com/user-attachments/assets/6346dfc3-8caa-46ef-b66d-9d80c85bc933)
+
+### Conclusion: 
+   This program provides an overview of how different types of operators are used in C++. Understanding these operators is important for performing various operations and implementing logic in C++ programs. This program serves as a practical guide for beginners to get familiar with operators and their applications in C++.
