@@ -274,37 +274,37 @@ int main() {
 
 Bitwise AND (&):
 
-*Performs a bitwise AND operation between two integers.
+1)Performs a bitwise AND operation between two integers.
 
-*If both corresponding bits are 1, the result bit is 1; otherwise, it’s 0.
+2)If both corresponding bits are 1, the result bit is 1; otherwise, it’s 0.
 
 Bitwise OR (|):
 
-*Performs a bitwise OR operation.
+1)Performs a bitwise OR operation.
 
-*If at least one of the corresponding bits is 1, the result bit is 1.
+2)If at least one of the corresponding bits is 1, the result bit is 1.
 
 Bitwise XOR (^):
 
-*Performs a bitwise XOR (exclusive OR) operation.
+1)Performs a bitwise XOR (exclusive OR) operation.
 
-*If the corresponding bits are different, the result bit is 1; otherwise, it’s 0. 
+2)If the corresponding bits are different, the result bit is 1; otherwise, it’s 0. 
 
 
 Bitwise NOT (~):
 
-*Inverts all the bits (bitwise complement).
+1)Inverts all the bits (bitwise complement).
 
-*If a bit is 1, its result bit is 0, and vice versa.
+2)If a bit is 1, its result bit is 0, and vice versa.
 
 Left Shift (<<):
 
-*Shifts the bits of the left operand to the left by the specified number of positions.
+1)Shifts the bits of the left operand to the left by the specified number of positions.
 
-*New bits on the right are set to 0.
+2)New bits on the right are set to 0.
 
 Right Shift (>>):
 
-*Shifts the bits of the left operand to the right by the specified number of positions.
+1)Shifts the bits of the left operand to the right by the specified number of positions.
 
-*The behavior of the leftmost bits depends on whether the type is signed or unsigned.
+2)The behavior of the leftmost bits depends on whether the type is signed or unsigned.
