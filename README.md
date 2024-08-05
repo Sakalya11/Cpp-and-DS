@@ -386,3 +386,151 @@ This program demonstrates how bitwise operators can be utilized in C++. These op
 1)Purpose: Selects one block of code based on a variable’s value.
 
 2)Execution: Instead of multiple nested if-else statements, a switch statement picks the appropriate block to execute.
+
+
+### Code:
+```
+#include<iostream>
+using namespace std;
+
+// Sakalya Tatte PRN: 23070123142
+int main() 
+{
+    // if statements 
+    int x = 20;
+    int y = 18;
+    if (x > y)
+    {
+        cout<< "x is greater than y "<<endl;
+    }
+    
+
+    // else statement
+    int time = 20;
+    if (time < 18) 
+    {
+        cout<<"Good Morning"<<endl;
+    }
+    else{
+        cout<<"Good Evening"<<endl;
+    }
+
+    // simple if else 
+
+    int  num;
+    cout<<"Enter positive number: ";
+    cin>>num;
+    if(num==0) {
+        cout<<num<<"You have entered zero"<<endl;
+    }
+    else if(num%2!=0){
+        cout<<num<<" is odd"<<endl;
+    }
+    else {
+        cout<<num<<" is even"<<endl;
+    }
+    
+    return 0;
+
+
+}
+```
+
+### Output: 
+![image](https://github.com/user-attachments/assets/51e57c13-4ee4-4dae-85b6-d6538482b9a8)
+
+
+### Code: 
+```
+#include<iostream>
+using namespace std;
+
+//Name: Sakalya Tatte PRN:23070123142
+int main() {
+    int  num1, num2, num3;
+    cout<<"Enter number-1: ";
+    cin>>num1;
+    cout<<"Enter number-2: ";
+    cin>>num2;
+    cout<<"Enter number-3: ";
+    cin>>num3;
+
+    if(num1>num2) {
+        if(num1>num3) {
+            cout<<num1<<" is the greatest number"<<endl;
+        }
+        else {
+            cout<<num3<<" is the greatest number"<<endl;
+        }
+    }
+    else if(num2>num1) {
+        if(num2>num3) {
+            cout<<num2<<" is the greatest number"<<endl;
+        }
+        else {
+            cout<<num3<<" is the greatest number"<<endl;
+        }
+    }
+    else {
+        cout<<"All three numbers are equal";
+    return 0;
+    }
+}
+```
+
+### Output:
+  ![image](https://github.com/user-attachments/assets/79feb9a4-2385-4b97-98a7-44670cc4146c)
+
+
+### Code:
+```
+#include<iostream>
+using namespace std;
+ // Simple calculator using 'Switch case'
+ // Name: Sakalya Tatte PRN: 23070123142
+ int main()
+ {
+    int choice;
+    double num1,num2;
+    cout<<"This is a simple calculator"<<endl;
+    cout<<"1 for addition"<<endl;
+    cout<<"2 for subtraction"<<endl;
+    cout<<"3 for multiplication"<<endl;
+    cout<<"4 for Division"<<endl;
+    cout<<" Enter the operation choice number (1-4)"<<endl;
+    cin>>choice;
+
+    cout<<"Enter any two numbers: "<<endl;
+    cin>>num1>>num2;
+
+    switch(choice){
+        case 1:
+        cout<<"Addition = "<<num1+num2<<endl;
+        break;
+
+        case 2:
+        cout<<"subtraction = "<<num1 - num2<<endl;
+        break;
+
+        case 3:
+        cout<<"Multiplication = "<<num1*num2<<endl;
+        break;
+
+        case 4:
+        cout<<" Division = "<<num1/num2<<endl;
+        break;
+    }
+
+    return 0;
+ }
+```
+
+### Output:
+![image](https://github.com/user-attachments/assets/f8db5d13-1bfe-4842-82dd-00d5a76f243a)
+
+
+
+### Conclusion:
+  This program helps us understand how bitwise operators can be used in C++. These bitwise operations can be used for performance optimization as they pack multiple values in a single variable making the program more memory efficient.
+
+
