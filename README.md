@@ -308,3 +308,41 @@ int main() {
 1)Shifts the bits of the left operand to the right by the specified number of positions.
 
 2)The behavior of the leftmost bits depends on whether the type is signed or unsigned.
+
+
+### Code:
+```
+#include<iostream>
+using namespace std;
+
+//Name: Sakalya Tatte PRN:23070123142
+
+int main()
+{
+    int a = 5;
+    int b = 3;
+    int AND = a&b;
+    int OR = a|b;
+    int XOR = a^b;
+    int NOT = ~a;
+    int LEFT_SHIFT = a<<b;
+    int RIGHT_SHIFT = a>>b;
+    
+    cout<<"AND:"<<AND<<endl;
+    cout<<"OR:"<<OR<<endl;
+    cout<<"XOR:"<<XOR<<endl;
+    cout<<"NOT:"<<NOT<<endl;
+    cout<<"LEFT_SHIFT:"<<LEFT_SHIFT<<endl;
+    cout<<"RIGHT_SHIFT:"<<RIGHT_SHIFT<<endl;
+
+  return 0;
+}
+```
+
+### Output:
+![image](https://github.com/user-attachments/assets/9f60140a-a783-4ebb-9407-e6e175e6db55)
+
+
+### Conclusion:
+   
+This program demonstrates how bitwise operators can be utilized in C++. These operations are beneficial for performance optimization, as they allow for the packing of multiple values into a single variable, enhancing memory efficiency.
