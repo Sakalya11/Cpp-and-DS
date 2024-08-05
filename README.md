@@ -388,7 +388,7 @@ This program demonstrates how bitwise operators can be utilized in C++. These op
 2)Execution: Instead of multiple nested if-else statements, a switch statement picks the appropriate block to execute.
 
 
-### Code:
+### Code(if-else):
 ```
 #include<iostream>
 using namespace std;
@@ -440,7 +440,7 @@ int main()
 ![image](https://github.com/user-attachments/assets/51e57c13-4ee4-4dae-85b6-d6538482b9a8)
 
 
-### Code: 
+### Code (Nested if-else):
 ```
 #include<iostream>
 using namespace std;
@@ -482,7 +482,7 @@ int main() {
   ![image](https://github.com/user-attachments/assets/79feb9a4-2385-4b97-98a7-44670cc4146c)
 
 
-### Code:
+### Code (Switch case):
 ```
 #include<iostream>
 using namespace std;
