@@ -534,3 +534,144 @@ using namespace std;
   This program helps us understand how bitwise operators can be used in C++. These bitwise operations can be used for performance optimization as they pack multiple values in a single variable making the program more memory efficient.
 
 
+
+
+
+
+# EXPERIMENT 6 (Desicion making loops)
+
+## Aim:
+  To learn how to implement decision making statement loops like for, while and do while in C++
+
+### Apparatus:
+  Vs Code, Github
+
+
+### Theory:
+  Decision making loops are useful to execute a block of code repeatedly for a certain number of times, ranging from 1 to infinite, depending on the condition or iterations.
+
+Types of Decision Making Loops:
+### for() loop
+
+1)A control flow statement that executes a block of code repeatedly for a specified number of iterations.
+
+2)Continues to run the code until a predefined condition is met.
+
+### while() loop
+
+1)A control flow statement that repeatedly executes a block of code as long as a specified condition remains true.
+
+2)Continues to run the code until the condition evaluates to false.
+
+### do while() loop
+
+1)A control flow statement that executes a block of code at least once, and then repeatedly executes the code as long as a specified condition remains true.
+
+2)The condition is evaluated after the execution of the code block, ensuring that the code runs at least once.
+
+
+
+### Code: 
+```
+#include <iostream>
+using namespace std;
+// Sakalya Tatte PRN: 23070123142
+int main() {
+    int s[100][100];
+    for (int i = 0; i < 100; ++i) {
+        for (int j = 0; j < 100; ++j) {
+            s[i][j] = i * 100 + j;
+        }
+    }
+
+    for (int i = 0; i <= 10; i++) {
+        cout << i << endl;
+    }
+
+
+    int x = 0;
+    cout << "While loop" << endl;
+    while (x < 10) {
+        cout << x << endl;
+        x++;
+    }
+
+    int y = 0;
+    cout << "Do-while loop" << endl;
+    do {
+        y++;
+        cout << y << endl;
+    } while (y < 4);
+
+
+    int a = 0, b = 0;
+    cout << "Nested for loop" << endl;
+    for (int i = 0; i < 4; i++) {
+        a++;
+        for (int j = 0; j < 4; j++) {
+            b++;
+            cout << s[a][b] << " ";
+        }
+        cout << endl;
+    }
+
+    int k=0,l=0;
+    while(k<5)
+    {
+        while(l<5)
+        {
+            k++;
+            l++;
+            cout<<k<<endl;
+            cout<<l<<endl;
+        }
+    }
+
+    //pattern
+
+    for(int i = 0;i<=5;i++)
+    {
+        for(int j = 1;j<= 5-i;j++)
+        {
+            cout<<" ";
+        }
+        for(int k = 1;k<=2*i-1;k++)
+        {
+            cout<<"*";
+        }
+        cout<<endl;
+    }
+
+    int q = 0;
+
+    while(q<5)
+        {
+            for(int i = 0;i<5;i++)
+                {
+                    cout<<"Hello World"<<endl; 
+                }
+                q++;
+        }
+        // this will produce 25 hello world commands 5*5
+
+    for(int i =0;i<10;i++)
+    {
+        while(i<5)
+        {
+            cout<<"World hello"<<endl;
+            i++; //prints world hello 5 times 
+        }
+    }   
+
+    return 0;
+}
+```
+
+### Output
+![image](https://github.com/user-attachments/assets/a86c5ca4-1143-482a-bc49-b17ba8be0bc7)
+![image](https://github.com/user-attachments/assets/a2cf6bab-bad9-44a8-8b6d-d58c6b218794)
+
+
+### Conclusion: 
+   In this experiment we learnt how to implement all the type of decision making statement loops like for, while and do while in C++ programming language
+
