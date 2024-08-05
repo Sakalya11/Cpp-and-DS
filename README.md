@@ -346,3 +346,43 @@ int main()
 ### Conclusion:
    
 This program demonstrates how bitwise operators can be utilized in C++. These operations are beneficial for performance optimization, as they allow for the packing of multiple values into a single variable, enhancing memory efficiency.
+
+
+
+
+# EXP 5
+
+## Aim:
+   Study and implement C++ decision-making statements: if, if-else, nested if, switch, and conditional operator.
+
+### Apparatus:
+  Vs Code, Github
+
+
+### Theory:
+   
+   Conditional statements allow you to make decisions within your programs, executing specific blocks of code based on certain conditions. Here are the four primary conditional statements in C++:
+
+### if 
+
+1)Purpose: Evaluates a condition.
+
+2)Execution: If the condition is true, a specific block of code runs.
+
+### if-else
+
+1)Purpose: Provides an alternative path.
+
+2)Execution: If the condition is true, one block of code runs; if false, another block runs.
+
+### nested if-else
+
+1)Purpose: Evaluates multiple conditions in sequence.
+
+2)Execution: Continues checking conditions until one is true, then executes the corresponding block of code.
+
+### switch case
+
+1)Purpose: Selects one block of code based on a variable’s value.
+
+2)Execution: Instead of multiple nested if-else statements, a switch statement picks the appropriate block to execute.
