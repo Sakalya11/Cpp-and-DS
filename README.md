@@ -680,5 +680,288 @@ int main() {
 
 
 
-# EXPERIMENT 7
+# EXPERIMENT 7.1 (ARRAYS IN C++)
 
+## Aim: 
+  To study and implement Arrays in C++
+
+### Apparatus:
+  Vs Code, Github
+
+
+### Theory: 
+   In C++, an array is a data structure that allows you to store multiple values of the same type in contiguous memory locations. This makes it easier to manage and manipulate large sets of data.
+
+### Declaration and Initialization: To declare an array, you specify the data type, the array name, and the size of the array. For example:
+
+```
+int arr[5]; // Declares an array of 5 integers
+```
+You can also initialize an array at the time of declaration:
+```
+int arr[5] = {1, 2, 3, 4, 5}; // Initializes the array with values
+```
+### Accessing Elements: Array elements are accessed using their indices, which start from 0. For example, arr[0] accesses the first element, and arr[4] accesses the fifth element.
+
+### Properties:
+
+1) Fixed Size: Once declared, the size of an array cannot be changed.
+2) Contiguous Memory: Elements are stored in contiguous memory locations, which allows for efficient access and manipulation.
+3) Indexing: The first element is at index 0, the second at index 1, and so on.
+
+
+### Common Operations:
+
+1) Traversal: Visiting each element in the array.
+2) Insertion: Adding an element at a specific index.
+3) Deletion: Removing an element from a specific index.
+4) Searching: Finding the index of a specific element.
+
+### Advantages:
+
+1) Random Access: Elements can be accessed directly using their indices.
+2) Cache Efficiency: Contiguous memory allocation improves cache performance.
+
+### Code:
+```
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a[100] = {78, 890, 67, 34, 13};
+    int b[5] = {56, 78, 12, 90, 97};
+    int c[100] = {19, 10, 100, 45, 47};
+
+    cout << "Traditional method" << endl;
+    for(int i = 0; i < 5; i++)
+    {
+        cout << a[i] << endl;
+    }
+    cout << endl;
+
+    //modern method printing 
+    cout<<"Modern method of printing of an array"<<endl;
+    for(int j: b)
+    {
+        cout<<j<<" ";
+    }
+    cout<<endl;
+
+    cout<<"--------------------------------"<<endl;
+    // user defined array
+    cout<<"user defined array"<<endl;
+    int array[100],n;
+    cout<<"Enter the size of array"<<endl;
+    cin>>n;
+    cout<<"Enter the array elements"<<endl;
+    for(int i = 0;i<n;i++)
+    {
+        cin>>array[i];
+    }
+
+    cout<<"The array is as follows: "<<endl;
+    for(int i =0;i<n;i++)
+    {
+        cout<<array[i]<<" ";
+    }
+    cout<<endl;
+
+    cout<<"-----------------------------------"<<endl;
+
+    // reversing an array
+    cout<<"Reversing an array"<<endl;
+    for(int j = n-1;j>= 0;j--)
+    {
+        cout<<array[j]<<endl;
+    }
+    cout<<endl;
+
+    //finding marks 
+    cout<<"-----------------------------------"<<endl;
+    cout<<"Finding an element in a array"<< endl;
+    int mark,marks[100],flag = 0,count = 0;
+    cout<<"Enter 5 elements "<<endl;
+    for(int i =0;i<5;i++)
+    {
+        cin>>marks[i];
+    }
+    cout<<"Which element position do u want"<<endl;
+    cin>>mark;
+
+    for(int i =0;i<5;i++)
+    {
+        if(mark == marks[i])
+        {
+            cout<<"position of the element is at: "<<i<<endl;
+            count++;
+            flag = 1;
+        }
+    }
+
+    if(count == 0)
+    {
+        cout<<"No elements found"<<endl;
+    }
+    else if(flag == 1)
+    {
+        cout<<"Element is present at: "<< count << "times" << endl;
+    }
+
+    cout<<"-----------------------------------"<<endl;
+    // sum of an array
+    cout<<"The sum of array elements "<<endl;
+    int sum = 0;
+    for(int i = 0;i<5;i++)
+    {
+        sum = sum+marks[i];
+    }
+    cout<<"Sum of elements: "<<sum<< endl;
+
+    //average of an array 
+
+    float avg;
+    avg = sum/5;
+
+    cout<<"The average of the array is: "<<avg<<endl;
+
+    cout<<"-----------------------------------------"<<endl;
+
+    // minimum of an array
+
+    int min=marks[0],max=marks[0];
+
+    for(int i =0;i<5;i++)
+    {
+        if(min<marks[i])
+        {
+            min = marks[i];
+        }
+    }
+    cout<<"\nThe least value of the array is: "<<min<<endl;
+
+    for(int i =0;i<n;i++)
+    {
+        if(max>marks[i])
+        {
+            max = marks[i];
+        }
+    }
+    cout<<"\nThe highest value of the array is: "<<max<<endl;
+
+    cout<<"-----------------------------"<<endl;
+    
+    return 0;
+}
+```
+
+### Output: 
+![image](https://github.com/user-attachments/assets/e9a86ae2-bf9d-4f9a-b4a7-5129e4071d57)
+
+### Conclusion: 
+  We learnt how to implement arrays and its operations in C++ programming languages.
+
+
+
+
+# EXPERIMENT 7.2(STRINGS IN C++)
+
+## Aim: 
+  To study and implement Strings in C++
+
+
+### Apparatus:
+  Vs Code, Github
+
+### Theory:
+  String: A datatype that represents a sequence of characters, used for storing and manipulating textual data in computer programs.In most programming languages, strings are treated as a distinct data type. This means that strings have their own set of operations and properties. They can be declared and manipulated using specific string-related functions and methods.
+
+### Applications of Strings:
+1) Hashing and Encryption: Generating random strings for data security or encryption.
+2) Data Representation: Representing and processing textual data in various applications.
+3) Database Operations: Handling and querying textual data within databases.
+4) Web Development: Managing and displaying textual content in web applications.
+
+
+### Common String Operations:
+1) Find the length of a string
+2) Accessing Characters from a string using its indexing value
+3) Concating or merging of 2 strings
+4) Appending and Concatenating Strings
+5) comparing 2 strings
+6) Making substrings
+7) Searching a character from a string
+8) Replacing a character or substring from the orignal string
+9) Inserting a character into a string
+10) Deleting or erasing a character from a string
+11) Coversion to obtain a C_type string (character array)
+
+(Note: The above operations can be directly accessed in C++ programming language that has been stored in String header file for example length() to find the length of a string, at(), append() , compare() , substring() , find(), etc.)
+
+
+### Code: 
+```
+#include<iostream>
+#include<string>
+// Sakalya Tatte PRN: 142
+using namespace std;
+
+int main()
+{
+    string a;
+    cout<<"Enter any string"<<endl;
+    cin>> a;
+    cout<<"The entered string is: "<<a<<endl;
+
+    cout<<"-----------------"<<endl;
+
+    cout<<"Concatenation of 2 strings: "<<endl;
+    cout<<"\nEnter 2 strings to concatenate: "<<endl;
+    string str1,str2,str3,str4;
+    cin>> str1>> str2;
+    cout<<"\nConcatenation of the 2 strings: "<<str1+str2<<endl;
+
+    cout<<"-------------------"<<endl;
+    cout<<"\nReversing a string"<<endl;
+    cout<<"\nEnter a string to reverse"<<endl;
+    cin>> str3;
+    for(int i = str3.length()-1;i>=0;i--)
+    {
+        cout<<str3[i];
+    }
+
+    cout<<"\n-------------------------"<<endl;
+    cout<<"\nTo check whether the given string is a Palindrome"<<endl;
+    cout<<"Enter a string to check whether a given string is a Palindrome"<<endl;
+    cin>>str4;
+    int len = str4.length();
+    bool flag = true;
+    for (int i = 0; i < len / 2; i++)
+    {
+        if (str4[i] != str4[len - 1 - i])
+        {
+            flag = false;
+            break;
+        }
+    }
+
+    if(flag)
+    {
+        cout<<"The given string is  a palindrome"<<endl;
+    }
+    else 
+    {
+        cout<<"The given string is not a palindrome"<<endl;
+    }
+
+
+    return 0;
+}
+```
+
+
+### Output: 
+![image](https://github.com/user-attachments/assets/2159f828-8c0a-498f-922c-c8f83cc5c699)
+
+### Conclusion: 
+   In this experiment we learnt how to implement string and its operations like sorting, searching, etc.
