@@ -1114,3 +1114,91 @@ return 0;
 
 
 # EXPERIMENT 9
+
+## Aim: 
+   To learn about pointers, how to implemnent pointers for different data types, how to make and print an array using pointers.
+
+### Theory:
+   Pointers are a fundamental feature in C++ that offer a way to directly manipulate memory and enhance performance. They represent memory addresses, allowing developers to access and modify data stored in specific locations. Understanding pointers is crucial for efficient C++ programming, particularly in systems programming, dynamic memory management, and low-level operations.
+
+### Advantages of pointers:
+
+1)Dynamic memory allocation
+2)Return multiple values from a function
+3)Alter original data
+4)Passing data between functions efficently
+5)Optimzing data memory
+6)Efficient data structures
+7)Enables call by reference
+
+
+
+### Applications of pointers:
+
+1)to allocate new objects on the heap,
+2)to pass functions to other functions
+3)to iterate over elements in arrays or other data structures.
+
+
+### Code:
+```
+// Sakalya
+// 23070123142
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a = 10;
+    int *aptr = &a;
+    cout<<"dereferencing the pointer of a: "<<*aptr<<endl;
+    *aptr = 20;
+    cout<<"updating value using pointer: "<<a<<endl;
+
+    float f = 100.009;
+    float *fptr = &f;
+    cout<<"value off f"<<f<<endl;
+    cout<<"pointer of f"<<fptr<<endl;
+    cout<<"dereferencing f "<<*fptr<<endl;
+    cout<<"referencing f"<<&f<<endl;
+
+    char ch = 'c';
+    char *chptr = &ch;
+    cout<<"character: "<<ch<<endl;
+    cout<<"pointer of character"<<chptr<<endl;
+    cout<<"referncing character: "<<&ch<<endl;
+    cout<<"dereferencing"<<*chptr<<endl;
+
+    int arr[] = {5,90,30};
+    int *arr_ptr = &arr[3];
+    cout<<arr_ptr<<endl;
+    cout<<"printing an array by dereferencing its pointers: "<<endl;
+    for(int i = 0;i<3;i++)
+    {
+        cout<<(*(arr+i))<<endl; // printing the array using pointers 
+    }
+
+    cout<< "Creating an arrray using pointers: "<<endl;
+    int *p = new int[5];
+    for(int i = 0;i<5;i++)
+    {
+        p[i] = 10*(i+1);
+    }
+    // printing the values 
+    cout<< *p<<endl;
+    cout<< *p+1<<endl;
+    cout<< *(p+1)<<endl;
+    cout<<2[p]<<endl;
+    cout<<p[2]<<endl;
+    *p++;
+    cout<<*p;
+
+    return 0;
+}
+```
+### Output:
+![image](https://github.com/user-attachments/assets/2bfa94a7-a94f-4bae-bc1c-73db3d6b4a7e)
+
+### Conclusion:
+   In this experiment we learnt the basics of pointers We learnt how to create and print an array using pointers
