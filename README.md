@@ -1123,30 +1123,30 @@ return 0;
 
 ### Advantages of pointers:
 
-1)Dynamic memory allocation
+1) Dynamic memory allocation
 
-2)Return multiple values from a function
+2) Return multiple values from a function
 
-3)Alter original data
+3) Alter original data
 
-4)Passing data between functions efficently
+4) Passing data between functions efficently
 
-5)Optimzing data memory
+5) Optimzing data memory
 
-6)Efficient data structures
+6) Efficient data structures
 
-7)Enables call by reference
+7) Enables call by reference
 
 
 
 
 ### Applications of pointers:
 
-1)to allocate new objects on the heap
+1) To allocate new objects on the heap
 
-2)to pass functions to other functions
+2) To pass functions to other functions
 
-3)to iterate over elements in arrays or other data structures.
+3) To iterate over elements in arrays or other data structures.
 
 
 
