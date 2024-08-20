@@ -1118,6 +1118,10 @@ return 0;
 ## Aim: 
    To learn about pointers, how to implemnent pointers for different data types, how to make and print an array using pointers.
 
+### Apparatus:
+ VS Code, Github
+   
+
 ### Theory:
    Pointers are a fundamental feature in C++ that offer a way to directly manipulate memory and enhance performance. They represent memory addresses, allowing developers to access and modify data stored in specific locations. Understanding pointers is crucial for efficient C++ programming, particularly in systems programming, dynamic memory management, and low-level operations.
 
